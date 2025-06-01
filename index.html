@@ -1,0 +1,97 @@
+<!-- FILE: index.html (Home Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gunaji's Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="icon" href="logo.png">
+</head>
+<body class="bg-gradient-to-r from-green-50 to-blue-100 text-gray-800">
+
+  <!-- Navbar -->
+ <header class="flex flex-col md:flex-row items-center justify-between bg-white p-4 shadow-md space-y-2 md:space-y-0">
+    <div class="flex items-center space-x-3">
+      <img src="logo.png" alt="Logo" class="w-10 h-10">
+      <h1 class="text-xl font-bold text-blue-700">Gunaji's Academy</h1>
+    </div>
+  <nav class="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-end gap-4 text-sm md:text-base text-blue-600 font-medium">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="courses.html" class="hover:underline">Courses</a>
+    <a href="feestructure.html" class="hover:underline">Fee Structure</a>
+    <a href="about.html" class="hover:underline">About Us</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+    <a href="admissionform.html" class="hover:underline">Admission Form</a>
+    <a href="tutor-hiring.html" class="font-semibold">Join Us</a>
+  </nav>
+  </header>
+
+  <!-- Welcome Section -->
+  <section class="py-8 px-4 sm:px-6 text-center" data-aos="fade-up">
+    <img src="logo.png" alt="Logo" class="w-24 h-24 mx-auto mb-4">
+    <h2 class="text-3xl font-bold text-blue-700">Welcome to Gunaji's Academy!</h2>
+    <p class="mt-4 text-lg font-bold text-black-700 max-w-3xl mx-auto">
+      Gunaji's Academy empowers students from Std 1 to Std 10 in All Subjects. 
+    </p>  
+    <p class="mt-4 text-lg font-bold text-black-700 max-w-3xl mx-auto">
+      Our expert educators and personalized approach guarantee improvement and confidence.
+    </p>
+  </section>
+
+  <!-- Highlights -->
+  <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-8 px-4 sm:px-6" ...>
+   <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in">
+    <i data-lucide="graduation-cap" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Experienced Faculty</h3>
+      <p class="mt-2 text-sm text-gray-600">Teachers with years of experience in school and competitive exam coaching.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in" data-aos-delay="100">
+    <i data-lucide="user-check" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Personalized Coaching</h3>
+      <p class="mt-2 text-sm text-gray-600">Customized sessions to match each student's learning pace and style.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in" data-aos-delay="200">
+    <i data-lucide="users" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Small Batches</h3>
+      <p class="mt-2 text-sm text-gray-600">Focused attention with batch sizes limited to 10–12 students.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in" data-aos-delay="300">
+    <i data-lucide="file-text" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Exam Practice</h3>
+      <p class="mt-2 text-sm text-gray-600">Topic wise tests weekly and monthly.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in" data-aos-delay="400">
+    <i data-lucide="calendar-clock" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Customized Time Table</h3>
+      <p class="mt-2 text-sm text-gray-600">Customized time table for each student.</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center" data-aos="zoom-in" data-aos-delay="500">
+    <i data-lucide="mail-check" class="w-8 h-8 mx-auto text-blue-600"></i>
+      <h3 class="font-bold text-blue-600">Regular Parental Updates</h3>
+      <p class="mt-2 text-sm text-gray-600">Regular parental updates provided weekly.</p>
+    </div>
+  </section>
+
+  <footer class="text-center p-4 mt-10 text-sm text-gray-500">
+    © 2025 Gunaji's Academy. All rights reserved.
+  </footer>
+
+  <script>
+  AOS.init();
+  lucide.createIcons();
+  </script>
+
+</body>
+</html>
