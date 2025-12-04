@@ -7,6 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="logo.png">
 </head>
+
 <body class="bg-gradient-to-r from-green-50 to-emerald-100 text-gray-800 min-h-screen flex flex-col">
 
   <!-- Navbar -->
@@ -15,6 +16,7 @@
       <img src="logo.png" alt="Logo" class="w-10 h-10">
       <h1 class="text-xl font-bold text-blue-700">Gunaji's Academy</h1>
     </div>
+
     <nav class="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-end gap-4 text-sm md:text-base text-blue-600 font-medium">
       <a href="index.html" class="hover:underline">Home</a>
       <a href="courses.html" class="hover:underline">Courses</a>
@@ -23,73 +25,87 @@
       <a href="achievements.html" class="font-semibold">Our Achievements</a>
       <a href="contact.html" class="hover:underline">Contact</a>
       <a href="admissionform.html" class="hover:underline">Admission Form</a>
-      <a href="tutor-hiring.html" class="font-semibold">Join Us</a>
+
+      <!-- Underline removed from Join Us -->
+      <a href="tutor-hiring.html" class="font-semibold no-underline hover:no-underline">Join Us</a>
     </nav>
   </header>
 
-<section id="achievements" class="py-12 px-4 bg-white">
-  <h2 class="text-3xl font-bold text-center mb-10 text-blue-700">
-    Our Achievements
-  </h2>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+  <!-- Achievements Section -->
+  <section id="achievements" class="py-12 px-4 bg-white">
 
-    <!-- Card 1 -->
-    <div class="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-blue-100">
-      <h3 class="text-4xl font-extrabold text-blue-600">95%+</h3>
-      <p class="text-lg mt-2">Students Scored </p>
-       <img src="Achievement 1.jpg" alt="Achievement 1" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-       <img src="Achievement 2.jpg" alt="Achievement 2" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-       <img src="Achievement 3.jpg" alt="Achievement 3" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-       <img src="Achievement 4.jpg" alt="Achievement 4" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-       <img src="Achievement 5.jpg" alt="Achievement 5" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+    <h2 class="text-3xl font-bold text-center mb-12 text-blue-700">
+      Our Achievements
+    </h2>
+
+    <!-- Updated grid spacing -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-4">
+
+
+      <!-- Card 1 -->
+      <div class="bg-blue-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-blue-100">
+        <h3 class="text-4xl font-extrabold text-blue-600">95%+</h3>
+        <p class="text-lg mt-2">Students Scored</p>
+
+        <div class="space-y-4 mt-4">
+          <img src="Achievement 1.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Achievement 2.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Achievement 3.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-yellow-100">
+        <h3 class="text-4xl font-extrabold text-yellow-600">50+</h3>
+        <p class="text-lg mt-2">Workshops & Camps Conducted</p>
+
+        <div class="space-y-4 mt-4">
+          <img src="Diwali Camp 1.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Diwali Camp 2.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+      </div>
+
+
+      <!-- Card 3 -->
+      <div class="bg-green-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-green-100">
+        <h3 class="text-4xl font-extrabold text-green-600">500+</h3>
+        <p class="text-lg mt-2">Happy Students – Prize Distribution</p>
+
+        <div class="space-y-4 mt-4">
+          <img src="Price Distribution 1.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 2.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 3.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 4.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 5.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 6.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 7.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 8.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 9.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 10.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 12.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 14.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 16.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 17.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Price Distribution 18.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+      </div>
+
+
+      <!-- Card 4 -->
+      <div class="bg-purple-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-purple-100">
+        <h3 class="text-4xl font-extrabold text-purple-600">100%</h3>
+        <p class="text-lg mt-2">Parent Satisfaction Reviews</p>
+
+        <div class="space-y-4 mt-4">
+          <img src="Parent Reviews 1.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+          <img src="Parent Reviews 2.jpg" class="w-full h-56 rounded-lg object-cover hover:scale-105 transition-transform duration-300">
+        </div>
+      </div>
+
+
     </div>
-
-
-    <!-- Card 4 -->
-    <div class="bg-yellow-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-yellow-100">
-      <h3 class="text-4xl font-extrabold text-yellow-600">50+</h3>
-      <p class="text-lg mt-2">Workshops & Camps Conducted</p>
-      <img src="Diwali Camp 1.jpg" alt="Diwali Camp" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Diwali Camp 2.jpg" alt="Diwali Camp" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Diwali Camp 3.jpg" alt="Diwali Camp" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Diwali Camp 4.jpg" alt="Diwali Camp" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-    </div>
-
-    
-    <!-- Card 3 -->
-    <div class="bg-green-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-green-100">
-      <h3 class="text-4xl font-extrabold text-green-600">500+</h3>
-      <p class="text-lg mt-2">Happy Students - Price Distribution </p>
-      <img src="Price Distribution 1.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 2.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 3.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 4.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 5.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 6.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 7.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 8.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 9.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 10.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 12.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 14.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 16.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 17.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-      <img src="Price Distribution 18.jpg" alt="Prices" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-    </div>
-
-    
-    <!-- Card 4 -->
-    <div class="bg-purple-50 p-6 rounded-xl shadow hover:shadow-lg transition text-center border border-purple-100">
-      <h3 class="text-4xl font-extrabold text-purple-600">100%</h3>
-      <p class="text-lg mt-2">Parent Satisfaction Comments</p>
-        <img src="Parent Reviews 1.jpg" alt="Parent Reviews 1" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-        <img src="Parent Reviews 2.jpg" alt="Parent Reviews 2" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-        <img src="Parent Reviews 3.jpg" alt="Parent Reviews 3" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-        <img src="Parent Reviews 4.jpg" alt="Parent Reviews 4" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-        <img src="Parent Reviews 5.jpg" alt="Parent Reviews 5" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-        <img src="Parent Reviews 6.jpg" alt="Parent Reviews 6" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-300">
-    </div>
-
-  </div>
-</section>
+  </section>
+</body>
+</html>
